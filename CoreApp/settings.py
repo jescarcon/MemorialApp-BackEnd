@@ -168,9 +168,7 @@ AUTH_USER_MODEL = 'MemorialApp.User'
 CORS_ALLOWED_ORIGINS = [
     'http://localhost:5173', #FrontEnd URL
     'http://127.0.0.1:5173',
-
-    'http://192.168.1.35:80', #IP LAN
-    'http://81.36.94.10:80', #IP Pública
+    'https://memorialapp-frontend.onrender.com',
 ]
 #CORS CONFIGURATION
 
