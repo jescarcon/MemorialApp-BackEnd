@@ -26,10 +26,11 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = "secret-key"
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
 ALLOWED_HOSTS = [
     #'127.0.0.1',
+    'memorialapp-backend.onrender.com'
     #'81.36.94.10'
 ]
 
@@ -197,7 +198,7 @@ EMAIL_USE_TLS = True
 #EMAIL_HOST_USER = 'gonzalogarciaprieto.275@gmail.com'
 #EMAIL_HOST_PASSWORD = 'ljvc zpph wcbh kyfg'
 
-#EMAIL_HOST_USER = 'muerte1000@gmail.com'
+EMAIL_HOST_USER = 'muerte1000@gmail.com'
 EMAIL_HOST_PASSWORD = 'zxyw nmyw dgvd jbsk'
 #DEFAULT_FROM_EMAIL = 'no-reply@tuapp.com' # El remitente que aparece en los emails
 EMAIL_HOST_USER = 'no-reply@tuapp.com' # El remitente que aparece en los emails
